@@ -6,11 +6,57 @@
     <title>Tourista | 360</title>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <link href="./src/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Onest&display=swap"
+        rel="stylesheet">
 </head>
 <body>
-  <div class="flex justify-center p-4">
-    <h1 class="font-semibold text-red-500 text-lg">Welcome to the jungle</h1>
+<div class="h-screen bg-gray-100">
+  <div class="relative h-60">
+    <img class="h-60 w-full object-fill shadow-xl" src="https://images.unsplash.com/photo-1523496922380-91d5afba98a3?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D z-0" />
+
+    <div class="absolute inset-x-0 top-0 flex h-16 flex-row items-center justify-between px-4">
+      <div class="stroke-2 text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-align-left">
+          <line x1="21" x2="3" y1="6" y2="6" />
+          <line x1="15" x2="3" y1="12" y2="12" />
+          <line x1="17" x2="3" y1="18" y2="18" />
+        </svg>
+      </div>
+      <h1 class="font-['Onest'] text-xl font-bold text-white">TOURISTA</h1>
+    </div>
   </div>
+  <div class="flex items-center justify-center px-4 pb-1 pt-4">
+    <h1 class="font-['Onest'] text-xl font-bold text-tourPurple">We Value Your Time!</h1>
+  </div>
+  <div class="grid grid-cols-2 gap-2 font-['Onest']">
+    <div class="flex flex-col px-2">
+      <h1 class="text-tourPurple py-2 font-semibold">Traveling country</h1>
+      <select name="" id="" class="form-select text-tourPurple border-tourPurple rounded border-2 px-4 py-3 text-sm">
+        <option value="NA">Select...</option>
+        <option value="Thailand">Thailand</option>
+        <option value="Thailand">Malaysia</option>
+      </select>
+    </div>
+    <div class="flex flex-col px-2">
+      <h1 class="text-tourPurple py-2 font-semibold">Visa Type</h1>
+      <select name="" id="" class="form-select text-tourPurple border-tourPurple rounded border-2 px-4 py-3 text-sm">
+        <option value="NA">Select...</option>
+        <option value="Tourist">Tourist</option>
+        <option value="Medical">Medical</option>
+      </select>
+    </div>
+  </div>
+  <div class="flex items-center justify-center px-2 py-4">
+    <span class="relative inline-flex">
+      <button type="button" class="inline-flex cursor-not-allowed items-center rounded-md bg-lightPurple px-32 py-2 text-sm font-semibold leading-6 text-white shadow ring-1 transition duration-150 ease-in-out" disabled="">Start Your Adventure</button>
+      <span class="absolute right-0 top-0 -mr-1 -mt-1 flex h-3 w-3">
+        <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"></span>
+        <span class="relative inline-flex h-3 w-3 rounded-full bg-sky-500"></span>
+      </span>
+    </span>
+  </div>
+</div>
+
   
 </body>
 </html>
