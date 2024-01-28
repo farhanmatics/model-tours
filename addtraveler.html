@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tourista | 360</title>
+        <script
+            defer="defer"
+            src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        <link href="./src/output.css" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Onest&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+      <div class="flex h-screen flex-col">
+        <div class="flex basis-1/6 items-center justify-between bg-purple-950">
+          <p class="pl-4 text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left"><path d="m15 18-6-6 6-6" /></svg>
+          </p>
+          <img src="https://tourista.co/img/tl-03.png" alt="tourista" class="w-32 pr-4" />
+        </div>
+        <div class="flex basis-4/6 flex-col items-center justify-center">
+          <h1>Add Traveler: </h1>
+          <p>First Name:</p>
+          <input type="text" name="" id="" class="border">
+          <p>Surname:</p>
+          <input type="text" name="" id="" class="border">
+          <p>Passport No:</p>
+          <input type="text" name="" id="" class="border">
+          <p>Validity:</p>
+          <input type="date" name="" id="" class="border">
+          <p>Profession:</p>
+          <select name="" id="">
+            <option value="Private Service">Private Service</option>
+            <option value="Business">Business</option>
+          </select>
+        </div>
+        <div class="flex basis-1/6 items-center justify-end bg-gray-100 p-4 gap-4">
+          <a href="#" class="inline-flex cursor-pointer items-center rounded-md bg-purple-950 px-12 py-2 text-sm font-semibold leading-6 text-white shadow">Scan Your Passport</a>
+          <a href="./travelinfo.html" class="inline-flex cursor-pointer items-center rounded-md bg-purple-950 px-12 py-2 text-sm font-semibold leading-6 text-white shadow">Add Traveler</a>
+        </div>
+      </div>
+    </body>
+</html>
